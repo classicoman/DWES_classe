@@ -47,6 +47,19 @@ var_dump($a);
   echo "<br>";
    ?>
 
+
+     <h2>String:</h2>
+     <?php
+     $a = "Això és un string";
+
+     echo "#1 ";
+     print_r($a);
+     echo "<br>";
+     echo "#2 ";
+     var_dump($a);
+     echo "<br>";
+      ?>
+
    <h2>Boolean:</h2>
    <?php
    $a = true;
@@ -84,4 +97,16 @@ var_dump($a);
      echo "#2 ";
      var_dump($a);
      echo "<br>";
+    ?>
+
+    <h2>$GLOBALS</h2>
+    <?php
+    $a = $GLOBALS;
+
+    echo "#1 ";
+    print_r($a);
+    echo "<br>";
+    echo "#2 ";
+    var_dump($a);
+    echo "<br>";
   ?>
