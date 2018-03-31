@@ -16,20 +16,30 @@ $alumnes[3] = 'Tolo';
 $notes = array(8.5,7,10,5);
 
 //Declarar i crear array associatiu
+$qualificacions = array('Pepe' => 8.5, 'Maria' => 7, 'Luisa' => 10, 'Tolo' => 5 );
+
+//També es pot crear així, és més llegible
+/*
 $qualificacions = array(
   'Pepe' => 8.5,
   'Maria' => 7,
   'Luisa' => 10,
   'Tolo' => 5
 );
+*/
 
-//També el podriem crear aixi:
+//També el podriem crear sense emprar 'array' aixi:
 /*
 $qualificacions['Pepe'] = 8.5;
 $qualificacions['Maria'] = 7;
 $qualificacions['Luisa'] = 10;
 $qualificacions['Tolo'] = 5;
  */
+
+//Una altra manera, manco utilitzada
+/*
+$qualificacions = ['Pepe' => 8.5, 'Maria' => 7, 'Luisa' => 10, 'Tolo' => 5];
+*/
 
 var_dump($alumnes);
 var_dump($notes);
