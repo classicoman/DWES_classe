@@ -1,0 +1,19 @@
+<?php
+
+//echo phpinfo();
+
+//$provar ++;
+echo $provar;
+echo "despres";
+
+// echo "hola mon";
+
+
+function dosparams($a, $b) {
+	return $a + $b;
+}
+
+echo dosparams(5,2);
+
+echo dosparams(1);
+?>
